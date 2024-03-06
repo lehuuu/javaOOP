@@ -19,6 +19,6 @@ public class giaiptbac1 {
         System.out.print("nghiem cua phuong trinh la :"+ x);
 
     }
-  //  scanner.close();
+
 }
 }

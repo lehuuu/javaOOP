@@ -24,5 +24,6 @@ public class demngay {
         default: System.out.println("nhap so ngay sai");
             break;
     }
+    // sc.close();
    } 
 }
