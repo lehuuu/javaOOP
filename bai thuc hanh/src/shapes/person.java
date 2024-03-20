@@ -24,7 +24,7 @@ public class person {
         System.out.println("gioi tinh : " +gioitinh);
         System.out.println("tuoi : "+tuoi);
     }
-    public void inthongtin(String ten , int tuoi){
-        System.out.println(ten + "-" + tuoi);
+    public void inthongtin(String ten , int tuoi , String gioitinh){
+        System.out.println(ten + "-" + tuoi + "-" +gioitinh);
     }
 }

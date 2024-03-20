@@ -2,24 +2,26 @@ package shapes;
 
 import java.util.Scanner;
 
-public class hinhtron {
-      public float r , cv , dt ;
-    final float PI = 3.14f;
-    void nhapbankinh (){
+public class hinhtron extends hinhhoc {
+      public float r  ;
+    public hinhtron(){
+        ten = "hinh tron";
+    }
+    
+    public void nhapbankinh (){
         System.out.println("r = ");
         Scanner Sc = new Scanner(System.in);
         r = Sc.nextFloat();
         
     }
-    void tinhchuvi(){
-        cv = 2 * PI * r;
+    public void tinhchuvi (){
+
+        chuvi = 2 * PI * r;
     }
-    void tinhdientich(){
-        dt = PI * r * r;
+    public void tinhdientich(){
+  
+        dientich = PI * r * r;
     }
-    void inthongtin(){
-        System.out.println("chu vi = " + cv);
-        System.out.println("dien tich = " + dt);
-    }
+
 }
 

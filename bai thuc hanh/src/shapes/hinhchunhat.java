@@ -2,8 +2,11 @@ package shapes;
 
 import java.util.Scanner;
 
-public class hinhchunhat {
-    float dai,rong,cv,dt;
+public class hinhchunhat extends hinhhoc {
+    float dai,rong;
+    public hinhchunhat(){
+        ten = "hinh chu nhat";
+    }
     public void nhapchieudaichieurong(){
         System.out.println("chieu dai : ");
         Scanner sc = new Scanner(System.in);
@@ -11,13 +14,17 @@ public class hinhchunhat {
         System.out.println("chieu rong : ");
         rong = sc.nextFloat();
     }
-    public void tinhcvdt(){
-        cv = 2*(dai+rong);
-        dt = dai*rong;
+    public void tinhchuvi(){
+        chuvi = 2*(dai+rong);
     }
-    public void inthongtin(){
-        System.out.println("chu vi la : "+cv);
-        System.out.println("dien tich la : "+dt);
+        public void tinhdientich(){
+
+    
+        dientich = dai*rong;
     }
+    // public void inthongtin(){
+    //     System.out.println("chu vi la : "+cv);
+    //     System.out.println("dien tich la : "+dt);
+    // }
     
 }
