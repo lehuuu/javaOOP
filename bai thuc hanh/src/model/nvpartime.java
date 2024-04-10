@@ -9,6 +9,7 @@ public class nvpartime extends nhanvien {
     this.giolamviec=giolamviec;
 
   }
+  @Override
   public String loainhanvien(){
     return "nhan vien partime";
 

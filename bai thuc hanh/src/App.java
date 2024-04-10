@@ -2,6 +2,7 @@ import shapes.hinhchunhat;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        System.out.println("sdffg");
     // //  nhanvien nv = new nhanvien();
     // //  nv.nhaphoten();
     // //  nv.nhapchucvu();

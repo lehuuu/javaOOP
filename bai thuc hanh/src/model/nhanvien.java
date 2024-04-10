@@ -14,9 +14,9 @@ public class nhanvien {
 
     }
     public void inthongtin(){
-        System.out.print("ten nhan vien la : ");
-        System.out.print("loai nhan vien la : ");
-        System.out.print("nhan vien co muc luong la : ");
+        System.out.print("ten nhan vien la : " +ten);
+        System.out.print("loai nhan vien la : " +loainhanvien());
+        System.out.print("nhan vien co muc luong la : " +luong);
     }
 
 
