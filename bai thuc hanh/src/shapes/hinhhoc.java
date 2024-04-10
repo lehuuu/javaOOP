@@ -7,19 +7,19 @@ public class hinhhoc {
     public float dientich;
     public float thetich;
      public void xuatten(){
-        System.out.println("ten la : " +ten);
+        System.out.print("ten la : " +ten);
 
      }
      public void inchuvi(){
-        System.out.println("chu vi la : " +chuvi);
+        System.out.print("chu vi la : " +chuvi);
      }
      public void indientich(){
      
-        System.out.println("dien tich la :" +dientich);
+        System.out.print("dien tich la :" +dientich);
      }
      public void inthetich(){
      
-        System.out.println("the tich la :" +thetich);
+        System.out.print("the tich la :" +thetich);
      }
 }
  

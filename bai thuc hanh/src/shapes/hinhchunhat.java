@@ -8,10 +8,10 @@ public class hinhchunhat extends hinhhoc {
         ten = "hinh chu nhat";
     }
     public void nhapchieudaichieurong(){
-        System.out.println("chieu dai : ");
+        System.out.print("chieu dai : ");
         Scanner sc = new Scanner(System.in);
         dai = sc.nextFloat();
-        System.out.println("chieu rong : ");
+        System.out.print("chieu rong : ");
         rong = sc.nextFloat();
     }
     public void tinhchuvi(){
