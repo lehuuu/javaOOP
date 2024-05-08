@@ -9,7 +9,7 @@ public class hinhtron extends hinhhoc {
     }
     
     public void nhapbankinh (){
-        System.out.print("r = ");
+        System.out.print(" r = ");
         Scanner Sc = new Scanner(System.in);
         r = Sc.nextFloat();
         
