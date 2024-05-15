@@ -20,7 +20,7 @@ public class slide42_chuong4 {
         System.out.println(" nhap gia tri can lay : ");
         int index = sc.nextInt();
         if (index <0 || (index>list.size()-1)){
-        System.out.println("chi so can lay phai >0 and < " + (list.size()-1));
+        System.out.println("chi so can lay phai > 0 and < " + (list.size()-1));
         } else {
             String note = list.get(index);
             System.out.println("phan tu thu "+ index +"trong list la : " + note);
