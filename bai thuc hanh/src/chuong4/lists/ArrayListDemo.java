@@ -15,13 +15,12 @@ public class ArrayListDemo {
         }
         for(int i=0;i<arrlist.size();i++){
          arrlist.get(i).inthongtin();
-         arrlist.remove(1);
+        //  arrlist.remove(1);
         }
-       
+        }
         // arrlist.remove(1);
         // System.out.println(arrlist.get(1));
         // System.out.println(arrlist.size());
-       
-
     }
-}
+    
+
