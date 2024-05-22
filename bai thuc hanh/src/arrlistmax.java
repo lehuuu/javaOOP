@@ -7,11 +7,11 @@ public class arrlistmax {
         Scanner sc = new Scanner(System.in);
         int n;
         System.out.println("nhap phan tu : ");
-        n = sc.nextInt();
+         n = sc.nextInt();
         for (int i=0;i<n;i++){
             System.out.println("nhap phan tu thu " +i+ "la :");
-            n= sc.nextInt();
-            arrlistint.add(n);
+            int number= sc.nextInt();
+            arrlistint.add(number);
         }
         int max = arrlistint.get(0);
         for(int i=1;i<arrlistint.size();i++){
